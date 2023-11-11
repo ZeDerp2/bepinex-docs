@@ -58,4 +58,10 @@ select `winhttp` and `Click` add:
 
 ![Add "winhttp" library override in winecfg Libraries tab](images/winecfg_add_lib.png)
 
+> [!NOTE]
+> ### For Steam Deck/SteamOS Users only
+> 
+> BepInEx will not run or generate files if you do not have `winhttp.dll` in your game's file directory. Download the x64 build of [BepInEx](https://github.com/BepInEx/BepInEx/releases) and drag the `winhttp.dll` file into your game's directory. Launching the game should now generate the necessary files for BepInEx. Hope this helps!
+
+
 Finally click `Apply` and you're done. Running the game should now run BepInEx.
